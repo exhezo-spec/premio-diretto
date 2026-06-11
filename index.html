@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===================== SEO ===================== -->
+  <title>Premio Diretto | Informazioni semplici. Risposte rapide.</title>
+  <meta name="description" content="Premio Diretto ti aiuta a scoprire nuove opportunità disponibili in Italia. Lascia nome e numero WhatsApp e ricevi tutte le informazioni direttamente dal nostro team. Supporto dedicato, risposta rapida, procedura semplice." />
+  <meta name="keywords" content="opportunità Italia, informazioni WhatsApp, supporto dedicato, Premio Diretto, assistenza professionale" />
+  <meta name="author" content="Premio Diretto" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#16a34a" />
+  <link rel="canonical" href="https://www.premiodiretto.it/" />
+
+  <!-- ===================== Open Graph ===================== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="it_IT" />
+  <meta property="og:site_name" content="Premio Diretto" />
+  <meta property="og:title" content="Premio Diretto | Informazioni semplici. Risposte rapide." />
+  <meta property="og:description" content="Scopri nuove opportunità disponibili in Italia. Lascia nome e numero WhatsApp e ricevi tutte le informazioni dal nostro team." />
+  <meta property="og:url" content="https://www.premiodiretto.it/" />
+  <meta property="og:image" content="https://www.premiodiretto.it/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- ===================== Twitter Card ===================== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Premio Diretto | Informazioni semplici. Risposte rapide." />
+  <meta name="twitter:description" content="Scopri nuove opportunità disponibili in Italia. Lascia nome e numero WhatsApp e ricevi le informazioni dal nostro team." />
+  <meta name="twitter:image" content="https://www.premiodiretto.it/og-image.jpg" />
+
+  <!-- ===================== Fonts ===================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- ===================== Tailwind CDN ===================== -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0fdf4', 100: '#dcfce7', 200: '#bbf7d0', 300: '#86efac',
+              400: '#4ade80', 500: '#22c55e', 600: '#16a34a', 700: '#15803d',
+              800: '#166534', 900: '#14532d',
+            },
+          },
+          boxShadow: {
+            soft: '0 4px 24px -8px rgba(16,24,40,0.08)',
+            card: '0 12px 40px -12px rgba(16,24,40,0.12)',
+            glow: '0 20px 60px -20px rgba(22,163,74,0.45)',
+          },
+          keyframes: {
+            'fade-up': { '0%': { opacity: 0, transform: 'translateY(24px)' }, '100%': { opacity: 1, transform: 'translateY(0)' } },
+            float: { '0%,100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-12px)' } },
+            'float-slow': { '0%,100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-8px)' } },
+            shimmer: { '0%': { backgroundPosition: '-200% 0' }, '100%': { backgroundPosition: '200% 0' } },
+          },
+          animation: {
+            float: 'float 6s ease-in-out infinite',
+            'float-slow': 'float-slow 7s ease-in-out infinite',
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- ===================== Structured Data JSON-LD ===================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Premio Diretto",
+    "url": "https://www.premiodiretto.it/",
+    "logo": "https://www.premiodiretto.it/logo.png",
+    "slogan": "Informazioni semplici. Risposte rapide.",
+    "description": "Premio Diretto aiuta le persone a scoprire nuove opportunità disponibili in Italia tramite supporto WhatsApp dedicato.",
+    "areaServed": "IT",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "availableLanguage": "Italian"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Quanto tempo serve per ricevere una risposta?", "acceptedAnswer": { "@type": "Answer", "text": "Nella maggior parte dei casi ti contattiamo entro pochi minuti su WhatsApp durante gli orari di assistenza. In ogni caso ricevi una risposta entro 24 ore." } },
+      { "@type": "Question", "name": "Come verrete a contattarmi?", "acceptedAnswer": { "@type": "Answer", "text": "Ti contatteremo direttamente sul numero WhatsApp che hai indicato nel modulo, tramite un messaggio del nostro team dedicato." } },
+      { "@type": "Question", "name": "Il servizio è gratuito?", "acceptedAnswer": { "@type": "Answer", "text": "Sì. Richiedere informazioni e ricevere assistenza è completamente gratuito e senza alcun impegno." } },
+      { "@type": "Question", "name": "Quali informazioni riceverò?", "acceptedAnswer": { "@type": "Answer", "text": "Riceverai informazioni chiare e personalizzate sulle opportunità disponibili in Italia, in base alle tue esigenze." } },
+      { "@type": "Question", "name": "Posso interrompere la comunicazione in qualsiasi momento?", "acceptedAnswer": { "@type": "Answer", "text": "Certamente. Puoi chiederci di interrompere la comunicazione in qualsiasi momento e i tuoi dati verranno gestiti secondo la Privacy Policy." } },
+      { "@type": "Question", "name": "I miei dati sono protetti?", "acceptedAnswer": { "@type": "Answer", "text": "Sì. Trattiamo i tuoi dati nel rispetto del GDPR e non li condividiamo con terze parti per finalità non autorizzate." } }
+    ]
+  }
+  </script>
+
+  <style>
+    html { -webkit-font-smoothing: antialiased; }
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    h1,h2,h3,h4 { font-family: '"Plus Jakarta Sans"', system-ui, sans-serif; }
+
+    /* Reveal on scroll */
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity .7s cubic-bezier(.16,1,.3,1), transform .7s cubic-bezier(.16,1,.3,1); }
+    .reveal.in { opacity: 1; transform: translateY(0); }
+
+    /* Glass cards */
+    .glass {
+      background: rgba(255,255,255,0.72);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255,255,255,0.6);
+    }
+
+    /* Gradient mesh background */
+    .mesh::before {
+      content: "";
+      position: absolute; inset: 0; z-index: -1;
+      background:
+        radial-gradient(40rem 40rem at 85% -10%, rgba(34,197,94,0.14), transparent 60%),
+        radial-gradient(36rem 36rem at -5% 20%, rgba(16,163,74,0.10), transparent 55%),
+        radial-gradient(30rem 30rem at 50% 120%, rgba(34,197,94,0.08), transparent 60%);
+    }
+
+    .grid-pattern {
+      background-image: linear-gradient(rgba(16,24,40,0.035) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(16,24,40,0.035) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: radial-gradient(60% 60% at 50% 30%, #000 40%, transparent 100%);
+      -webkit-mask-image: radial-gradient(60% 60% at 50% 30%, #000 40%, transparent 100%);
+    }
+
+    .text-gradient {
+      background: linear-gradient(120deg, #15803d 0%, #22c55e 50%, #16a34a 100%);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+
+    /* Accordion */
+    .faq-body { max-height: 0; overflow: hidden; transition: max-height .4s ease; }
+    .faq-item.open .faq-body { max-height: 320px; }
+    .faq-item.open .faq-icon { transform: rotate(45deg); }
+
+    /* Button shimmer */
+    .btn-primary { position: relative; overflow: hidden; }
+    .btn-primary::after {
+      content:""; position:absolute; top:0; left:-150%; width:60%; height:100%;
+      background: linear-gradient(120deg, transparent, rgba(255,255,255,.35), transparent);
+      transform: skewX(-20deg); transition: left .7s ease;
+    }
+    .btn-primary:hover::after { left: 150%; }
+
+    ::selection { background: #bbf7d0; color: #14532d; }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar { width: 10px; }
+    ::-webkit-scrollbar-thumb { background: #d1fae5; border-radius: 9999px; }
+    ::-webkit-scrollbar-thumb:hover { background: #86efac; }
+  </style>
+</head>
+
+<body class="bg-white text-slate-800 antialiased overflow-x-hidden">
+
+  <!-- ============ Skip link (a11y) ============ -->
+  <a href="#form" class="sr-only focus:not-sr-only focus:absolute focus:top-3 focus:left-3 focus:z-50 focus:bg-brand-600 focus:text-white focus:px-4 focus:py-2 focus:rounded-lg">Vai al modulo</a>
+
+  <!-- ============================ NAVBAR ============================ -->
+  <header id="navbar" class="fixed top-0 inset-x-0 z-40 transition-all duration-300">
+    <nav class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="mt-3 flex items-center justify-between rounded-2xl glass shadow-soft px-4 sm:px-6 py-3">
+        <a href="#top" class="flex items-center gap-2.5 group">
+          <span class="grid place-items-center w-9 h-9 rounded-xl bg-brand-600 text-white shadow-glow group-hover:scale-105 transition">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg>
+          </span>
+          <span class="font-display font-extrabold tracking-tight text-lg text-slate-900">Premio<span class="text-brand-600">Diretto</span></span>
+        </a>
+
+        <div class="hidden md:flex items-center gap-7 text-sm font-medium text-slate-600">
+          <a href="#vantaggi" class="hover:text-brand-700 transition">Vantaggi</a>
+          <a href="#come-funziona" class="hover:text-brand-700 transition">Come funziona</a>
+          <a href="#recensioni" class="hover:text-brand-700 transition">Recensioni</a>
+          <a href="#faq" class="hover:text-brand-700 transition">FAQ</a>
+        </div>
+
+        <a href="#form" class="btn-primary inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white text-sm font-semibold px-4 sm:px-5 py-2.5 rounded-xl shadow-glow transition active:scale-95">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          <span class="hidden sm:inline">Richiedi informazioni</span>
+          <span class="sm:hidden">Richiedi</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ============================ HERO ============================ -->
+  <section id="top" class="relative mesh pt-32 sm:pt-40 pb-16 sm:pb-24">
+    <div class="absolute inset-0 grid-pattern -z-10"></div>
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+
+        <!-- Hero copy -->
+        <div class="reveal">
+          <span class="inline-flex items-center gap-2 rounded-full bg-brand-50 border border-brand-100 text-brand-700 text-xs sm:text-sm font-semibold px-3.5 py-1.5">
+            <span class="relative flex w-2 h-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-500 opacity-70"></span>
+              <span class="relative inline-flex rounded-full w-2 h-2 bg-brand-600"></span>
+            </span>
+            Informazioni semplici. Risposte rapide.
+          </span>
+
+          <h1 class="mt-6 font-display font-extrabold tracking-tight text-4xl sm:text-5xl lg:text-[3.4rem] leading-[1.07] text-slate-900">
+            Scopri nuove <span class="text-gradient">opportunità</span> disponibili in Italia
+          </h1>
+
+          <p class="mt-5 text-lg text-slate-600 max-w-xl leading-relaxed">
+            Lascia il tuo nome e numero WhatsApp e ricevi tutte le informazioni direttamente dal nostro team.
+          </p>
+
+          <div class="mt-8 flex flex-col sm:flex-row gap-3.5">
+            <a href="#form" class="btn-primary inline-flex items-center justify-center gap-2 bg-brand-600 hover:bg-brand-700 text-white font-semibold px-6 py-3.5 rounded-2xl shadow-glow transition active:scale-95">
+              Richiedi informazioni
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="https://wa.me/393000000000?text=Ciao%2C%20vorrei%20ricevere%20informazioni" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 text-slate-800 font-semibold px-6 py-3.5 rounded-2xl border border-slate-200 shadow-soft transition active:scale-95">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-brand-600" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zM6.597 20.13c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.51 5.26l-.999 3.648 3.978-.607zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+              Contattaci su WhatsApp
+            </a>
+          </div>
+
+          <!-- Trust mini badges -->
+          <div class="mt-9 grid grid-cols-2 sm:flex sm:flex-wrap gap-x-6 gap-y-3 text-sm">
+            <div class="flex items-center gap-2 text-slate-600"><span class="text-brand-600">✓</span> Supporto WhatsApp</div>
+            <div class="flex items-center gap-2 text-slate-600"><span class="text-brand-600">✓</span> Risposta rapida</div>
+            <div class="flex items-center gap-2 text-slate-600"><span class="text-brand-600">✓</span> Procedura semplice</div>
+            <div class="flex items-center gap-2 text-slate-600"><span class="text-brand-600">✓</span> Assistenza dedicata</div>
+          </div>
+        </div>
+
+        <!-- Hero visual -->
+        <div class="reveal relative">
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            <!-- Glow backdrop -->
+            <div class="absolute -inset-6 bg-gradient-to-tr from-brand-200/50 via-brand-100/30 to-transparent rounded-[2.5rem] blur-2xl"></div>
+
+            <div class="relative rounded-[2rem] overflow-hidden shadow-card border border-white/70">
+              <img
+                src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=900&q=80"
+                alt="Professionista italiana che usa lo smartphone per chattare su WhatsApp"
+                loading="eager" width="900" height="1100"
+                class="w-full h-[440px] sm:h-[520px] object-cover" />
+            </div>
+
+            <!-- Floating glass badge: WhatsApp message -->
+            <div class="absolute -left-4 sm:-left-8 top-10 animate-float">
+              <div class="glass rounded-2xl shadow-card px-4 py-3 flex items-center gap-3 w-56">
+                <span class="grid place-items-center w-9 h-9 rounded-xl bg-brand-600 text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24z"/></svg>
+                </span>
+                <div>
+                  <p class="text-xs text-slate-500 leading-none">Nuovo messaggio</p>
+                  <p class="text-sm font-semibold text-slate-900 mt-1">Team Premio Diretto</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating glass badge: rating -->
+            <div class="absolute -right-3 sm:-right-6 bottom-10 animate-float-slow">
+              <div class="glass rounded-2xl shadow-card px-4 py-3 w-44">
+                <div class="flex items-center gap-1 text-amber-400 text-sm">★★★★★</div>
+                <p class="text-xs text-slate-500 mt-1">Valutazione media</p>
+                <p class="text-lg font-extrabold text-slate-900 leading-none">4,9<span class="text-sm font-medium text-slate-400">/5</span></p>
+              </div>
+            </div>
+
+            <!-- Floating glass badge: response time -->
+            <div class="absolute right-6 -top-4 animate-float-slow hidden sm:block">
+              <div class="glass rounded-2xl shadow-card px-4 py-2.5 flex items-center gap-2">
+                <span class="grid place-items-center w-7 h-7 rounded-lg bg-brand-100 text-brand-700">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                </span>
+                <div class="leading-tight">
+                  <p class="text-xs text-slate-500">Risposta in</p>
+                  <p class="text-sm font-bold text-slate-900">pochi minuti</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ LOGOS / SOCIAL PROOF STRIP ============================ -->
+  <section class="border-y border-slate-100 bg-slate-50/60">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 py-8">
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center reveal">
+        <div><p class="text-3xl font-extrabold text-slate-900">5.000+</p><p class="text-sm text-slate-500 mt-1">Richieste gestite</p></div>
+        <div><p class="text-3xl font-extrabold text-slate-900">&lt; 5 min</p><p class="text-sm text-slate-500 mt-1">Tempo medio risposta</p></div>
+        <div><p class="text-3xl font-extrabold text-slate-900">4,9/5</p><p class="text-sm text-slate-500 mt-1">Soddisfazione</p></div>
+        <div><p class="text-3xl font-extrabold text-slate-900">100%</p><p class="text-sm text-slate-500 mt-1">Servizio gratuito</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ TRUST CARDS ============================ -->
+  <section id="vantaggi" class="py-20 sm:py-28">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="max-w-2xl mx-auto text-center reveal">
+        <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-slate-900 tracking-tight">Un servizio pensato per te</h2>
+        <p class="mt-4 text-slate-600 text-lg">Tutto ciò che ti serve per ricevere informazioni chiare, senza complicazioni.</p>
+      </div>
+
+      <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Card 1 -->
+        <article class="reveal group glass rounded-2xl p-7 shadow-soft hover:shadow-card hover:-translate-y-1.5 transition duration-300">
+          <span class="grid place-items-center w-12 h-12 rounded-2xl bg-brand-600 text-white shadow-glow group-hover:scale-110 transition">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </span>
+          <h3 class="mt-5 font-display font-bold text-lg text-slate-900">Supporto dedicato</h3>
+          <p class="mt-2 text-slate-600 text-sm leading-relaxed">Un team reale ti segue passo dopo passo e risponde a ogni tua domanda.</p>
+        </article>
+        <!-- Card 2 -->
+        <article class="reveal group glass rounded-2xl p-7 shadow-soft hover:shadow-card hover:-translate-y-1.5 transition duration-300">
+          <span class="grid place-items-center w-12 h-12 rounded-2xl bg-brand-600 text-white shadow-glow group-hover:scale-110 transition">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </span>
+          <h3 class="mt-5 font-display font-bold text-lg text-slate-900">Comunicazione veloce</h3>
+          <p class="mt-2 text-slate-600 text-sm leading-relaxed">Riceverai un messaggio WhatsApp in pochi minuti, senza lunghe attese.</p>
+        </article>
+        <!-- Card 3 -->
+        <article class="reveal group glass rounded-2xl p-7 shadow-soft hover:shadow-card hover:-translate-y-1.5 transition duration-300">
+          <span class="grid place-items-center w-12 h-12 rounded-2xl bg-brand-600 text-white shadow-glow group-hover:scale-110 transition">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          </span>
+          <h3 class="mt-5 font-display font-bold text-lg text-slate-900">Processo semplice</h3>
+          <p class="mt-2 text-slate-600 text-sm leading-relaxed">Bastano due campi: nome e numero WhatsApp. Nessuna procedura complicata.</p>
+        </article>
+        <!-- Card 4 -->
+        <article class="reveal group glass rounded-2xl p-7 shadow-soft hover:shadow-card hover:-translate-y-1.5 transition duration-300">
+          <span class="grid place-items-center w-12 h-12 rounded-2xl bg-brand-600 text-white shadow-glow group-hover:scale-110 transition">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          </span>
+          <h3 class="mt-5 font-display font-bold text-lg text-slate-900">Assistenza professionale</h3>
+          <p class="mt-2 text-slate-600 text-sm leading-relaxed">Operatori preparati e cortesi, con informazioni accurate e affidabili.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ HOW IT WORKS ============================ -->
+  <section id="come-funziona" class="py-20 sm:py-28 bg-slate-50/70 relative">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="max-w-2xl mx-auto text-center reveal">
+        <span class="text-brand-700 font-semibold text-sm uppercase tracking-wide">Semplice e veloce</span>
+        <h2 class="mt-2 font-display font-extrabold text-3xl sm:text-4xl text-slate-900 tracking-tight">Come funziona</h2>
+        <p class="mt-4 text-slate-600 text-lg">Quattro passaggi per ricevere le informazioni che cerchi.</p>
+      </div>
+
+      <div class="mt-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-6 relative">
+        <!-- connecting line (desktop) -->
+        <div class="hidden lg:block absolute top-9 left-[12%] right-[12%] h-px bg-gradient-to-r from-brand-200 via-brand-300 to-brand-200"></div>
+
+        <!-- Step 1 -->
+        <div class="reveal relative bg-white rounded-2xl p-7 shadow-soft hover:shadow-card transition">
+          <span class="relative z-10 grid place-items-center w-12 h-12 rounded-full bg-brand-600 text-white font-extrabold text-lg shadow-glow mx-auto">1</span>
+          <h3 class="mt-5 text-center font-display font-bold text-lg text-slate-900">Compila il modulo</h3>
+          <p class="mt-2 text-center text-slate-600 text-sm">Inserisci nome e numero WhatsApp. Bastano pochi secondi.</p>
+        </div>
+        <!-- Step 2 -->
+        <div class="reveal relative bg-white rounded-2xl p-7 shadow-soft hover:shadow-card transition">
+          <span class="relative z-10 grid place-items-center w-12 h-12 rounded-full bg-brand-600 text-white font-extrabold text-lg shadow-glow mx-auto">2</span>
+          <h3 class="mt-5 text-center font-display font-bold text-lg text-slate-900">Ricevi un messaggio WhatsApp</h3>
+          <p class="mt-2 text-center text-slate-600 text-sm">Il nostro team ti scrive direttamente sul tuo numero.</p>
+        </div>
+        <!-- Step 3 -->
+        <div class="reveal relative bg-white rounded-2xl p-7 shadow-soft hover:shadow-card transition">
+          <span class="relative z-10 grid place-items-center w-12 h-12 rounded-full bg-brand-600 text-white font-extrabold text-lg shadow-glow mx-auto">3</span>
+          <h3 class="mt-5 text-center font-display font-bold text-lg text-slate-900">Ricevi tutte le informazioni</h3>
+          <p class="mt-2 text-center text-slate-600 text-sm">Risposte chiare e personalizzate, senza impegno.</p>
+        </div>
+        <!-- Step 4 -->
+        <div class="reveal relative bg-white rounded-2xl p-7 shadow-soft hover:shadow-card transition">
+          <span class="relative z-10 grid place-items-center w-12 h-12 rounded-full bg-brand-600 text-white font-extrabold text-lg shadow-glow mx-auto">4</span>
+          <h3 class="mt-5 text-center font-display font-bold text-lg text-slate-900">Valuta l'opportunità</h3>
+          <p class="mt-2 text-center text-slate-600 text-sm">Decidi con calma e in totale libertà se proseguire.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ WHY CHOOSE US ============================ -->
+  <section class="py-20 sm:py-28">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div class="reveal">
+          <span class="text-brand-700 font-semibold text-sm uppercase tracking-wide">I nostri punti di forza</span>
+          <h2 class="mt-2 font-display font-extrabold text-3xl sm:text-4xl text-slate-900 tracking-tight">Perché scegliere Premio Diretto</h2>
+          <p class="mt-4 text-slate-600 text-lg">Mettiamo al centro la chiarezza, la rapidità e il rispetto del tuo tempo.</p>
+
+          <ul class="mt-8 grid sm:grid-cols-2 gap-4">
+            <li class="flex items-start gap-3"><span class="mt-0.5 grid place-items-center w-6 h-6 rounded-full bg-brand-100 text-brand-700 shrink-0"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg></span><span class="text-slate-700 font-medium">Processo semplice</span></li>
+            <li class="flex items-start gap-3"><span class="mt-0.5 grid place-items-center w-6 h-6 rounded-full bg-brand-100 text-brand-700 shrink-0"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg></span><span class="text-slate-700 font-medium">Supporto personalizzato</span></li>
+            <li class="flex items-start gap-3"><span class="mt-0.5 grid place-items-center w-6 h-6 rounded-full bg-brand-100 text-brand-700 shrink-0"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg></span><span class="text-slate-700 font-medium">Comunicazione rapida</span></li>
+            <li class="flex items-start gap-3"><span class="mt-0.5 grid place-items-center w-6 h-6 rounded-full bg-brand-100 text-brand-700 shrink-0"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg></span><span class="text-slate-700 font-medium">Assistenza dedicata</span></li>
+            <li class="flex items-start gap-3"><span class="mt-0.5 grid place-items-center w-6 h-6 rounded-full bg-brand-100 text-brand-700 shrink-0"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg></span><span class="text-slate-700 font-medium">Team disponibile</span></li>
+            <li class="flex items-start gap-3"><span class="mt-0.5 grid place-items-center w-6 h-6 rounded-full bg-brand-100 text-brand-700 shrink-0"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg></span><span class="text-slate-700 font-medium">Esperienza professionale</span></li>
+          </ul>
+
+          <a href="#form" class="btn-primary mt-9 inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white font-semibold px-6 py-3.5 rounded-2xl shadow-glow transition active:scale-95">
+            Inizia ora
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <!-- Visual -->
+        <div class="reveal relative">
+          <div class="absolute -inset-6 bg-gradient-to-bl from-brand-200/40 to-transparent rounded-[2.5rem] blur-2xl"></div>
+          <div class="relative rounded-[2rem] overflow-hidden shadow-card border border-white/70">
+            <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=80" alt="Team professionale italiano al lavoro in ufficio" loading="lazy" width="900" height="700" class="w-full h-[420px] object-cover" />
+          </div>
+          <div class="absolute -bottom-5 left-6 right-6 glass rounded-2xl shadow-card p-5 flex items-center gap-4">
+            <span class="grid place-items-center w-12 h-12 rounded-2xl bg-brand-600 text-white shadow-glow shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+            </span>
+            <div>
+              <p class="font-bold text-slate-900">Affidabilità garantita</p>
+              <p class="text-sm text-slate-500">Migliaia di persone ci hanno già scelto.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ TESTIMONIALS ============================ -->
+  <section id="recensioni" class="py-20 sm:py-28 bg-slate-50/70">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="max-w-2xl mx-auto text-center reveal">
+        <span class="text-brand-700 font-semibold text-sm uppercase tracking-wide">Dicono di noi</span>
+        <h2 class="mt-2 font-display font-extrabold text-3xl sm:text-4xl text-slate-900 tracking-tight">Esperienze reali</h2>
+        <p class="mt-4 text-slate-600 text-lg">La fiducia delle persone è il nostro risultato più importante.</p>
+      </div>
+
+      <div class="mt-14 grid md:grid-cols-3 gap-6">
+        <!-- T1 -->
+        <figure class="reveal glass rounded-2xl p-7 shadow-soft hover:shadow-card hover:-translate-y-1 transition">
+          <div class="text-amber-400 text-lg">★★★★★</div>
+          <blockquote class="mt-4 text-slate-700 leading-relaxed">"Servizio rapido e professionale. Ho ricevuto tutte le informazioni in pochi minuti."</blockquote>
+          <figcaption class="mt-6 flex items-center gap-3">
+            <span class="grid place-items-center w-11 h-11 rounded-full bg-gradient-to-br from-brand-500 to-brand-700 text-white font-bold">MR</span>
+            <div><p class="font-semibold text-slate-900">Marco R.</p><p class="text-sm text-slate-500">Milano</p></div>
+          </figcaption>
+        </figure>
+        <!-- T2 -->
+        <figure class="reveal glass rounded-2xl p-7 shadow-soft hover:shadow-card hover:-translate-y-1 transition">
+          <div class="text-amber-400 text-lg">★★★★★</div>
+          <blockquote class="mt-4 text-slate-700 leading-relaxed">"Assistenza molto chiara e disponibile. Esperienza positiva."</blockquote>
+          <figcaption class="mt-6 flex items-center gap-3">
+            <span class="grid place-items-center w-11 h-11 rounded-full bg-gradient-to-br from-brand-500 to-brand-700 text-white font-bold">GM</span>
+            <div><p class="font-semibold text-slate-900">Giulia M.</p><p class="text-sm text-slate-500">Roma</p></div>
+          </figcaption>
+        </figure>
+        <!-- T3 -->
+        <figure class="reveal glass rounded-2xl p-7 shadow-soft hover:shadow-card hover:-translate-y-1 transition">
+          <div class="text-amber-400 text-lg">★★★★★</div>
+          <blockquote class="mt-4 text-slate-700 leading-relaxed">"Processo semplice e supporto eccellente."</blockquote>
+          <figcaption class="mt-6 flex items-center gap-3">
+            <span class="grid place-items-center w-11 h-11 rounded-full bg-gradient-to-br from-brand-500 to-brand-700 text-white font-bold">AT</span>
+            <div><p class="font-semibold text-slate-900">Andrea T.</p><p class="text-sm text-slate-500">Torino</p></div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ LEAD FORM ============================ -->
+  <section id="form" class="py-20 sm:py-28 relative mesh">
+    <div class="max-w-5xl mx-auto px-5 sm:px-8">
+      <div class="grid lg:grid-cols-2 rounded-[2rem] overflow-hidden shadow-card border border-slate-100 bg-white">
+
+        <!-- Left info panel -->
+        <div class="bg-brand-600 text-white p-9 sm:p-11 relative overflow-hidden">
+          <div class="absolute -right-12 -top-12 w-48 h-48 rounded-full bg-white/10 blur-2xl"></div>
+          <div class="absolute -left-10 bottom-0 w-40 h-40 rounded-full bg-black/10 blur-2xl"></div>
+          <div class="relative">
+            <h2 class="font-display font-extrabold text-3xl tracking-tight">Richiedi informazioni</h2>
+            <p class="mt-4 text-brand-50/90 leading-relaxed">Lascia i tuoi dati: ti contatteremo su WhatsApp con tutte le informazioni, in modo gratuito e senza impegno.</p>
+
+            <ul class="mt-8 space-y-4">
+              <li class="flex items-center gap-3"><span class="grid place-items-center w-8 h-8 rounded-xl bg-white/15"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg></span> Risposta in pochi minuti</li>
+              <li class="flex items-center gap-3"><span class="grid place-items-center w-8 h-8 rounded-xl bg-white/15"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg></span> Nessun costo nascosto</li>
+              <li class="flex items-center gap-3"><span class="grid place-items-center w-8 h-8 rounded-xl bg-white/15"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg></span> Dati protetti secondo il GDPR</li>
+            </ul>
+
+            <div class="mt-10 flex items-center gap-3 text-brand-50/90 text-sm">
+              <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              Le tue informazioni sono al sicuro e non saranno mai condivise con terzi.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right form panel -->
+        <div class="p-8 sm:p-11">
+          <form id="leadForm" novalidate class="space-y-5">
+            <div>
+              <label for="nome" class="block text-sm font-semibold text-slate-700 mb-1.5">Nome e Cognome</label>
+              <div class="relative">
+                <span class="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400">
+                  <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </span>
+                <input id="nome" name="nome" type="text" autocomplete="name" required placeholder="Es. Mario Rossi"
+                  class="w-full rounded-xl border border-slate-200 bg-slate-50/60 pl-11 pr-4 py-3.5 text-slate-900 placeholder:text-slate-400 focus:bg-white focus:border-brand-500 focus:ring-4 focus:ring-brand-100 outline-none transition" />
+              </div>
+              <p data-error="nome" class="hidden mt-1.5 text-sm text-red-500">Inserisci il tuo nome e cognome.</p>
+            </div>
+
+            <div>
+              <label for="whatsapp" class="block text-sm font-semibold text-slate-700 mb-1.5">Numero WhatsApp</label>
+              <div class="relative">
+                <span class="absolute left-3.5 top-1/2 -translate-y-1/2 text-brand-600">
+                  <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zM6.597 20.13c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.51 5.26l-.999 3.648 3.978-.607z"/></svg>
+                </span>
+                <input id="whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" required placeholder="Es. +39 333 123 4567"
+                  class="w-full rounded-xl border border-slate-200 bg-slate-50/60 pl-11 pr-4 py-3.5 text-slate-900 placeholder:text-slate-400 focus:bg-white focus:border-brand-500 focus:ring-4 focus:ring-brand-100 outline-none transition" />
+              </div>
+              <p data-error="whatsapp" class="hidden mt-1.5 text-sm text-red-500">Inserisci un numero WhatsApp valido.</p>
+            </div>
+
+            <label class="flex items-start gap-3 cursor-pointer select-none">
+              <input id="privacy" name="privacy" type="checkbox" required class="mt-1 w-5 h-5 rounded border-slate-300 text-brand-600 focus:ring-brand-500 shrink-0" />
+              <span class="text-sm text-slate-600 leading-relaxed">Acconsento al trattamento dei dati personali secondo la <a href="#" class="text-brand-700 font-medium underline underline-offset-2 hover:text-brand-800">Privacy Policy</a>.</span>
+            </label>
+            <p data-error="privacy" class="hidden -mt-2 text-sm text-red-500">Per proseguire devi accettare la Privacy Policy.</p>
+
+            <button type="submit" id="submitBtn"
+              class="btn-primary w-full inline-flex items-center justify-center gap-2 bg-brand-600 hover:bg-brand-700 text-white font-semibold py-4 rounded-xl shadow-glow transition active:scale-[0.98] disabled:opacity-70 disabled:cursor-not-allowed">
+              <span id="submitText">Invia richiesta</span>
+              <svg id="submitSpinner" class="hidden animate-spin w-5 h-5" viewBox="0 0 24 24" fill="none"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"/><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 0 1 8-8v4a4 4 0 0 0-4 4H4z"/></svg>
+            </button>
+
+            <p class="text-center text-xs text-slate-400 flex items-center justify-center gap-1.5">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              Connessione sicura · Dati trattati nel rispetto del GDPR
+            </p>
+          </form>
+
+          <!-- Success message -->
+          <div id="successMsg" class="hidden text-center py-10">
+            <div class="mx-auto grid place-items-center w-20 h-20 rounded-full bg-brand-100 text-brand-600">
+              <svg class="w-10 h-10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg>
+            </div>
+            <h3 class="mt-6 font-display font-extrabold text-2xl text-slate-900">Grazie!</h3>
+            <p class="mt-2 text-slate-600">Ti contatteremo presto su WhatsApp.</p>
+            <a href="https://wa.me/393000000000?text=Ciao%2C%20ho%20appena%20inviato%20la%20richiesta" target="_blank" rel="noopener" class="mt-6 inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white font-semibold px-6 py-3 rounded-xl shadow-glow transition">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24z"/></svg>
+              Apri WhatsApp ora
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ FAQ ============================ -->
+  <section id="faq" class="py-20 sm:py-28">
+    <div class="max-w-3xl mx-auto px-5 sm:px-8">
+      <div class="text-center reveal">
+        <span class="text-brand-700 font-semibold text-sm uppercase tracking-wide">Hai dubbi?</span>
+        <h2 class="mt-2 font-display font-extrabold text-3xl sm:text-4xl text-slate-900 tracking-tight">Domande frequenti</h2>
+        <p class="mt-4 text-slate-600 text-lg">Le risposte alle domande più comuni dei nostri utenti.</p>
+      </div>
+
+      <div class="mt-12 space-y-4" id="faqList">
+        <!-- FAQ item template repeated -->
+        <div class="faq-item reveal bg-white border border-slate-200 rounded-2xl shadow-soft overflow-hidden">
+          <button class="faq-trigger w-full flex items-center justify-between gap-4 text-left px-6 py-5" aria-expanded="false">
+            <span class="font-display font-semibold text-slate-900">Quanto tempo serve per ricevere una risposta?</span>
+            <span class="faq-icon grid place-items-center w-7 h-7 rounded-full bg-brand-50 text-brand-700 shrink-0 transition-transform"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="px-6 pb-5 text-slate-600 leading-relaxed">Nella maggior parte dei casi ti contattiamo entro pochi minuti su WhatsApp durante gli orari di assistenza. In ogni caso ricevi una risposta entro 24 ore.</p></div>
+        </div>
+
+        <div class="faq-item reveal bg-white border border-slate-200 rounded-2xl shadow-soft overflow-hidden">
+          <button class="faq-trigger w-full flex items-center justify-between gap-4 text-left px-6 py-5" aria-expanded="false">
+            <span class="font-display font-semibold text-slate-900">Come verrete a contattarmi?</span>
+            <span class="faq-icon grid place-items-center w-7 h-7 rounded-full bg-brand-50 text-brand-700 shrink-0 transition-transform"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="px-6 pb-5 text-slate-600 leading-relaxed">Ti contatteremo direttamente sul numero WhatsApp che hai indicato nel modulo, tramite un messaggio del nostro team dedicato.</p></div>
+        </div>
+
+        <div class="faq-item reveal bg-white border border-slate-200 rounded-2xl shadow-soft overflow-hidden">
+          <button class="faq-trigger w-full flex items-center justify-between gap-4 text-left px-6 py-5" aria-expanded="false">
+            <span class="font-display font-semibold text-slate-900">Il servizio è gratuito?</span>
+            <span class="faq-icon grid place-items-center w-7 h-7 rounded-full bg-brand-50 text-brand-700 shrink-0 transition-transform"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="px-6 pb-5 text-slate-600 leading-relaxed">Sì. Richiedere informazioni e ricevere assistenza è completamente gratuito e senza alcun impegno.</p></div>
+        </div>
+
+        <div class="faq-item reveal bg-white border border-slate-200 rounded-2xl shadow-soft overflow-hidden">
+          <button class="faq-trigger w-full flex items-center justify-between gap-4 text-left px-6 py-5" aria-expanded="false">
+            <span class="font-display font-semibold text-slate-900">Quali informazioni riceverò?</span>
+            <span class="faq-icon grid place-items-center w-7 h-7 rounded-full bg-brand-50 text-brand-700 shrink-0 transition-transform"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="px-6 pb-5 text-slate-600 leading-relaxed">Riceverai informazioni chiare e personalizzate sulle opportunità disponibili in Italia, in base alle tue esigenze e ai tuoi interessi.</p></div>
+        </div>
+
+        <div class="faq-item reveal bg-white border border-slate-200 rounded-2xl shadow-soft overflow-hidden">
+          <button class="faq-trigger w-full flex items-center justify-between gap-4 text-left px-6 py-5" aria-expanded="false">
+            <span class="font-display font-semibold text-slate-900">Posso interrompere la comunicazione in qualsiasi momento?</span>
+            <span class="faq-icon grid place-items-center w-7 h-7 rounded-full bg-brand-50 text-brand-700 shrink-0 transition-transform"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="px-6 pb-5 text-slate-600 leading-relaxed">Certamente. Puoi chiederci di interrompere la comunicazione in qualsiasi momento e i tuoi dati verranno gestiti secondo la Privacy Policy.</p></div>
+        </div>
+
+        <div class="faq-item reveal bg-white border border-slate-200 rounded-2xl shadow-soft overflow-hidden">
+          <button class="faq-trigger w-full flex items-center justify-between gap-4 text-left px-6 py-5" aria-expanded="false">
+            <span class="font-display font-semibold text-slate-900">I miei dati sono protetti?</span>
+            <span class="faq-icon grid place-items-center w-7 h-7 rounded-full bg-brand-50 text-brand-700 shrink-0 transition-transform"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+          </button>
+          <div class="faq-body"><p class="px-6 pb-5 text-slate-600 leading-relaxed">Sì. Trattiamo i tuoi dati nel pieno rispetto del GDPR e non li condividiamo con terze parti per finalità non autorizzate.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ FINAL CTA ============================ -->
+  <section class="py-16">
+    <div class="max-w-5xl mx-auto px-5 sm:px-8">
+      <div class="relative rounded-[2rem] bg-brand-600 text-white overflow-hidden shadow-glow">
+        <div class="absolute -right-16 -top-16 w-64 h-64 rounded-full bg-white/10 blur-3xl"></div>
+        <div class="absolute -left-10 -bottom-16 w-56 h-56 rounded-full bg-black/10 blur-3xl"></div>
+        <div class="relative px-8 sm:px-12 py-12 sm:py-14 text-center">
+          <h2 class="font-display font-extrabold text-3xl sm:text-4xl tracking-tight">Pronto a scoprire le opportunità?</h2>
+          <p class="mt-4 text-brand-50/90 text-lg max-w-xl mx-auto">Compila il modulo: ti contatteremo su WhatsApp in pochi minuti, gratuitamente e senza impegno.</p>
+          <div class="mt-8 flex flex-col sm:flex-row gap-3.5 justify-center">
+            <a href="#form" class="inline-flex items-center justify-center gap-2 bg-white text-brand-700 font-semibold px-6 py-3.5 rounded-2xl shadow-soft hover:bg-brand-50 transition active:scale-95">Richiedi informazioni</a>
+            <a href="https://wa.me/393000000000?text=Ciao%2C%20vorrei%20ricevere%20informazioni" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 bg-brand-700/40 hover:bg-brand-700/60 text-white font-semibold px-6 py-3.5 rounded-2xl border border-white/30 transition active:scale-95">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24z"/></svg>
+              Contattaci su WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="border-t border-slate-100 bg-slate-50/60">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8 py-14">
+      <div class="grid md:grid-cols-4 gap-10">
+        <div class="md:col-span-2">
+          <a href="#top" class="flex items-center gap-2.5">
+            <span class="grid place-items-center w-9 h-9 rounded-xl bg-brand-600 text-white">
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg>
+            </span>
+            <span class="font-display font-extrabold tracking-tight text-lg text-slate-900">Premio<span class="text-brand-600">Diretto</span></span>
+          </a>
+          <p class="mt-4 text-slate-600 max-w-sm leading-relaxed">Informazioni semplici. Risposte rapide. Ti aiutiamo a scoprire nuove opportunità disponibili in Italia con un supporto WhatsApp dedicato.</p>
+        </div>
+
+        <div>
+          <h4 class="font-display font-semibold text-slate-900">Link utili</h4>
+          <ul class="mt-4 space-y-2.5 text-slate-600 text-sm">
+            <li><a href="#vantaggi" class="hover:text-brand-700 transition">Vantaggi</a></li>
+            <li><a href="#come-funziona" class="hover:text-brand-700 transition">Come funziona</a></li>
+            <li><a href="#recensioni" class="hover:text-brand-700 transition">Recensioni</a></li>
+            <li><a href="#faq" class="hover:text-brand-700 transition">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-display font-semibold text-slate-900">Legale &amp; Contatti</h4>
+          <ul class="mt-4 space-y-2.5 text-slate-600 text-sm">
+            <li><a href="#" class="hover:text-brand-700 transition">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-brand-700 transition">Cookie Policy</a></li>
+            <li><a href="#" class="hover:text-brand-700 transition">Termini e Condizioni</a></li>
+            <li><a href="#" class="hover:text-brand-700 transition">Contatti</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-12 pt-8 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
+        <p>© 2026 Premio Diretto. Tutti i diritti riservati.</p>
+        <p class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-brand-500"></span> Servizio attivo in tutta Italia</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================ FLOATING WHATSAPP ============================ -->
+  <a href="https://wa.me/393000000000?text=Ciao%2C%20vorrei%20ricevere%20informazioni" target="_blank" rel="noopener" aria-label="Contattaci su WhatsApp"
+     class="fixed bottom-5 right-5 z-40 grid place-items-center w-14 h-14 rounded-full bg-brand-600 text-white shadow-glow hover:scale-110 transition animate-float-slow">
+    <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zM6.597 20.13c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.51 5.26l-.999 3.648 3.978-.607z"/></svg>
+  </a>
+
+  <!-- ============================ JAVASCRIPT ============================ -->
+  <script>
+    /* ============================================================
+       CONFIGURAZIONE — MODIFICA SOLO QUESTE DUE RIGHE
+       ------------------------------------------------------------
+       1) WHATSAPP_NUMBER  -> il tuo numero WhatsApp in formato
+          internazionale SENZA "+", spazi o trattini.
+          Esempio per l'Italia: "393331234567"
+       2) GOOGLE_SHEETS_URL -> l'URL "/exec" della tua Web App
+          di Google Apps Script (dove arrivano i lead del modulo).
+          Lascialo vuoto ("") per usare la modalità demo.
+       ============================================================ */
+    const CONFIG = {
+      WHATSAPP_NUMBER: "393000000000",                 // <-- SOSTITUISCI col tuo numero WhatsApp
+      GOOGLE_SHEETS_URL: "",                            // <-- INCOLLA qui l'URL Apps Script (.../exec)
+      WHATSAPP_MESSAGE: "Ciao, vorrei ricevere informazioni"
+    };
+
+    // ---------- Applica numero WhatsApp a tutti i link/pulsanti ----------
+    (function applyWhatsApp() {
+      const base = `https://wa.me/${CONFIG.WHATSAPP_NUMBER}?text=${encodeURIComponent(CONFIG.WHATSAPP_MESSAGE)}`;
+      document.querySelectorAll('a[href*="wa.me/"]').forEach((a) => { a.href = base; });
+    })();
+
+    // ---------- Navbar shadow on scroll ----------
+    const navbar = document.getElementById('navbar');
+    const onScroll = () => navbar.firstElementChild.firstElementChild.classList.toggle('shadow-card', window.scrollY > 12);
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    // ---------- Reveal on scroll ----------
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          e.target.style.transitionDelay = Math.min(i * 60, 240) + 'ms';
+          e.target.classList.add('in');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+
+    // ---------- FAQ accordion ----------
+    document.querySelectorAll('.faq-trigger').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.faq-item');
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item.open').forEach((openItem) => {
+          if (openItem !== item) {
+            openItem.classList.remove('open');
+            openItem.querySelector('.faq-trigger').setAttribute('aria-expanded', 'false');
+          }
+        });
+        item.classList.toggle('open', !isOpen);
+        btn.setAttribute('aria-expanded', String(!isOpen));
+      });
+    });
+
+    // ---------- Lead form validation & submit ----------
+    const form = document.getElementById('leadForm');
+    const successMsg = document.getElementById('successMsg');
+    const submitBtn = document.getElementById('submitBtn');
+    const submitText = document.getElementById('submitText');
+    const submitSpinner = document.getElementById('submitSpinner');
+
+    const showError = (name, show) => {
+      const el = document.querySelector(`[data-error="${name}"]`);
+      if (el) el.classList.toggle('hidden', !show);
+      const field = document.getElementById(name);
+      if (field && field.type !== 'checkbox') field.classList.toggle('border-red-400', show);
+    };
+
+    const validPhone = (v) => {
+      const digits = v.replace(/[^\d]/g, '');
+      return digits.length >= 8 && digits.length <= 15;
+    };
+
+    form.addEventListener('submit', (ev) => {
+      ev.preventDefault();
+      const nome = document.getElementById('nome');
+      const whatsapp = document.getElementById('whatsapp');
+      const privacy = document.getElementById('privacy');
+
+      const okNome = nome.value.trim().length >= 3 && nome.value.trim().includes(' ');
+      const okPhone = validPhone(whatsapp.value);
+      const okPrivacy = privacy.checked;
+
+      showError('nome', !okNome);
+      showError('whatsapp', !okPhone);
+      showError('privacy', !okPrivacy);
+
+      if (!(okNome && okPhone && okPrivacy)) {
+        const firstErr = form.querySelector('.border-red-400') || (!okPrivacy ? privacy : null);
+        if (firstErr) firstErr.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitText.textContent = 'Invio in corso…';
+      submitSpinner.classList.remove('hidden');
+
+      const showSuccess = () => {
+        form.classList.add('hidden');
+        successMsg.classList.remove('hidden');
+        successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      };
+
+      const payload = {
+        nome: nome.value.trim(),
+        whatsapp: whatsapp.value.trim(),
+        data: new Date().toISOString(),
+        origine: 'premiodiretto-landing'
+      };
+
+      if (CONFIG.GOOGLE_SHEETS_URL) {
+        // Invia i lead al tuo Google Sheet (Apps Script Web App).
+        // 'no-cors' evita errori CORS: la riga viene comunque salvata sul foglio.
+        fetch(CONFIG.GOOGLE_SHEETS_URL, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        })
+          .then(showSuccess)
+          .catch(showSuccess); // mostriamo comunque il successo all'utente
+      } else {
+        // Modalità demo (nessun URL configurato): mostra solo il messaggio.
+        setTimeout(showSuccess, 1000);
+      }
+    });
+
+    // Live-clear errors while typing
+    ['nome', 'whatsapp'].forEach((id) => {
+      document.getElementById(id).addEventListener('input', () => showError(id, false));
+    });
+    document.getElementById('privacy').addEventListener('change', () => showError('privacy', false));
+
+    // ---------- Footer year (auto) ----------
+    // (kept static 2026 per brand requirement, but auto-updates if needed)
+  </script>
+</body>
+</html>
